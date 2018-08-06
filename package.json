@@ -1,5 +1,5 @@
 {
-  "name": "hackapet-omdb-server",
+  "name": "omdb-api-server",
   "version": "1.0.0",
   "description": "Requests information of movies and TV shows from OMDB",
   "main": "server.js",
