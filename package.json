@@ -1,0 +1,30 @@
+{
+  "name": "hackapet-omdb-server",
+  "version": "1.0.0",
+  "description": "Requests information of movies and TV shows from OMDB",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "dotenv": "^6.0.0",
+    "omdb-client": "^2.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamonSaboya/hackapet-imdb-server.git"
+  },
+  "author": "Ramon Saboya <ramons.gomes@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamonSaboya/hackapet-imdb-server/issues"
+  },
+  "homepage": "https://github.com/RamonSaboya/hackapet-imdb-server#readme"
+}
